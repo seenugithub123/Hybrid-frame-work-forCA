@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-17T21:02:09 IST" name="Default suite" finished-at="2022-05-17T21:02:19 IST" duration-ms="9788">
+    <groups>
+    </groups>
+    <test started-at="2022-05-17T21:02:09 IST" name="Default test" finished-at="2022-05-17T21:02:19 IST" duration-ms="9788">
+      <class name="testcases.Study">
+        <test-method is-config="true" signature="extent()[pri:0, instance:testcases.Study@3d6f0054]" started-at="2022-05-17T21:02:09 IST" name="extent" finished-at="2022-05-17T21:02:09 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extent -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Study@3d6f0054]" started-at="2022-05-17T21:02:09 IST" name="setup" finished-at="2022-05-17T21:02:16 IST" duration-ms="6734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="study1()[pri:0, instance:testcases.Study@3d6f0054]" started-at="2022-05-17T21:02:16 IST" name="study1" finished-at="2022-05-17T21:02:18 IST" duration-ms="2518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- study1 -->
+        <test-method is-config="true" signature="get(org.testng.ITestResult)[pri:0, instance:testcases.Study@3d6f0054]" started-at="2022-05-17T21:02:18 IST" name="get" finished-at="2022-05-17T21:02:18 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=study1 status=SUCCESS method=Study.study1()[pri:0, instance:testcases.Study@3d6f0054] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Study@3d6f0054]" started-at="2022-05-17T21:02:18 IST" name="tearDown" finished-at="2022-05-17T21:02:19 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Study -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
